@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+
+	padding-block: 1rem;
+}
+
+.pokemon-text {
+	font-size: 4rem;
+	font-weight: bold;
+	color: darkslategray;
+}
+
+.pokemon-image {
+	border-radius: 1rem;
+	max-height: 50vh;
+}
+
+.button {
+	font-size: 2rem;
+	padding: 1rem;
+	background-color: aliceblue;
+	cursor: pointer;
+
+	&:hover,
+	&:focus-visible {
+		outline: none;
+		background-color: beige;
+	}
+}
