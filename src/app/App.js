@@ -1,5 +1,5 @@
 import "./App.scss";
-import Pokemon from "./Pokemon.js";
+import Pokemon from "./pokemon/Pokemon.js";
 
 function App() {
 	return <Pokemon />;

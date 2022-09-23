@@ -1,4 +1,4 @@
-import Pokedex from "./list/Pokedex.js";
+import Pokedex from ".././list/Pokedex.js";
 
 function GetPokemonName(num) {
 	let matchedPokemon = "";

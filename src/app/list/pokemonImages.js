@@ -120,7 +120,7 @@ const pokemonImages = {
 	Seaking: "http://img.pokemondb.net/artwork/seaking.jpg",
 	Staryu: "http://img.pokemondb.net/artwork/staryu.jpg",
 	Starmie: "http://img.pokemondb.net/artwork/starmie.jpg",
-	"Mr. Mime": "http://img.pokemondb.net/artwork/mr. mime.jpg",
+	"Mr. Mime": "https://archives.bulbagarden.net/media/upload/thumb/e/ec/122Mr._Mime.png/250px-122Mr._Mime.png",
 	Scyther: "http://img.pokemondb.net/artwork/scyther.jpg",
 	Jynx: "http://img.pokemondb.net/artwork/jynx.jpg",
 	Electabuzz: "http://img.pokemondb.net/artwork/electabuzz.jpg",
