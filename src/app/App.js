@@ -1,8 +1,16 @@
-import "./App.scss";
-import Pokemon from "./pokemon/Pokemon.js";
+import "./assets/scss/main.scss";
+import Header from "./layout/header";
+import Main from "./layout/main";
+import Footer from "./layout/footer";
 
-function App() {
-	return <Pokemon />;
+export default function app() {
+	return (
+		<>
+			<Header />
+
+			<Main />
+
+			<Footer />
+		</>
+	);
 }
-
-export default App;
