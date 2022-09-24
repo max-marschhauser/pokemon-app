@@ -1,5 +1,3 @@
-import React from "react";
-
-export default function respond() {
-	return <div>respond</div>;
+export default function Respond() {
+	return <div>Respond</div>;
 }
