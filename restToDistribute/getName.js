@@ -1,3 +1,5 @@
+// takes number and returns pokemon name
+
 import Pokedex from "../list/Pokedex.js.js.js.js";
 
 function GetPokemonName(num) {

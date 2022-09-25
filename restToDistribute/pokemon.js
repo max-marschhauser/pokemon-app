@@ -1,3 +1,5 @@
+// returns div with pokemon name and pokemon image
+
 import GetPokemonImage from "./GetPokemonInfo/GetPokemonImage.js";
 import GetPokemonName from "./GetPokemonInfo/GetPokemonName.js";
 import nextPokemon from "./NextPokemon.js";

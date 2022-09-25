@@ -1,3 +1,5 @@
+// takes name and returns pokemon image
+
 import pokemonImages from "../list/pokemonImages";
 
 function GetPokemonName(name) {
