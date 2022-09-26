@@ -7,7 +7,7 @@ function GetPokemonName(num) {
 
 	Pokedex.forEach((pokemon) => {
 		if (pokemon.id === num) {
-			matchedPokemon = pokemon.name;
+			matchedPokemon = pokemon.name.toUpperCase();
 		}
 	});
 

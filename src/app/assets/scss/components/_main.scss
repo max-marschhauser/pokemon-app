@@ -1,1 +1,27 @@
 @use "../abstracts" as abs;
+
+.button--start {
+	width: 100vw;
+	padding: 2rem;
+	height: 60vh;
+
+	background-color: white;
+
+	cursor: pointer;
+
+	font-size: 2rem;
+}
+
+.container--page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 60vh;
+
+	& > * {
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		letter-spacing: normal;
+	}
+}

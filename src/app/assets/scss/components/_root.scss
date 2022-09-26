@@ -2,13 +2,9 @@
 
 :root {
 	--color-blue: hsl(240, 100%, 50%);
-	--color-red: hsl(0, 700%, 60%);
+	--color-red: hsl(0, 70%, 60%);
 	--color-white: hsl(0, 0%, 100%);
 	--color-black: hsl(0, 0%, 0%);
-}
-
-body {
-	min-height: 100vh;
 }
 
 *,
@@ -23,4 +19,7 @@ body {
 
 	scroll-behavior: smooth;
 	cursor: default;
+
+	font-family: "Pokemon Solid", sans-serif;
+	letter-spacing: 0.3rem;
 }

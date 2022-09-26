@@ -1,7 +1,7 @@
 import "./assets/scss/styles.scss";
-import Header from "./layout/header";
-import Main from "./layout/main";
-import Footer from "./layout/footer";
+import Header from "./layout/Header";
+import Main from "./layout/Main";
+import Footer from "./layout/Footer";
 
 export default function App() {
 	return (

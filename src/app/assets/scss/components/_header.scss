@@ -6,7 +6,7 @@
 	align-items: center;
 
 	border-bottom: 0.1rem solid var(--color-black);
-	height: 5rem;
+	height: 20vh;
 
 	background-color: var(--color-blue);
 
@@ -18,7 +18,7 @@
 
 		font-size: 2rem;
 		font-weight: bold;
-		box-shadow: 0 0 0.5rem var(--color-black);
+		box-shadow: 0 0 1rem 0.5rem var(--color-red);
 
 		span {
 			display: inline-block;

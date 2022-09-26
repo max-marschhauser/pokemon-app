@@ -2,3 +2,7 @@
 @use "components/header";
 @use "components/main";
 @use "components/footer";
+
+.hide {
+	display: none;
+}
