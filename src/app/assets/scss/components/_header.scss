@@ -1,1 +1,56 @@
 @use "../abstracts" as abs;
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-bottom: 0.1rem solid var(--color-black);
+	height: 5rem;
+
+	background-color: var(--color-blue);
+
+	color: var(--color-white);
+	text-align: center;
+
+	&__logo {
+		padding: 0.5rem 2rem;
+
+		font-size: 2rem;
+		font-weight: bold;
+		box-shadow: 0 0 0.5rem var(--color-black);
+
+		span {
+			display: inline-block;
+			opacity: 0;
+
+			animation-name: Enter-logo;
+			animation-duration: 500ms;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease;
+
+			&:nth-child(1) {
+				animation-delay: 500ms;
+			}
+
+			&:nth-child(2) {
+				animation-delay: 1000ms;
+			}
+
+			&:nth-child(3) {
+				animation-delay: 1750ms;
+			}
+		}
+	}
+}
+
+@keyframes Enter-logo {
+	0% {
+		opacity: 0;
+		transform: translateY(1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

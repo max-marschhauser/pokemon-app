@@ -1,3 +1,6 @@
+import getPokemonName from "../utils/getPokemonName";
+import randomNumber from "../utils/randomNumber";
+
 export default function Question() {
-	return <div>Tko je taj Pokemon?</div>;
+	return <div>Which one is {getPokemonName(randomNumber())}?</div>;
 }
