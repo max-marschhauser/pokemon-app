@@ -15,4 +15,9 @@
 		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 		letter-spacing: 0.1rem;
 	}
+
+	::selection {
+		color: var(--color-black);
+		background: var(--color-white);
+	}
 }

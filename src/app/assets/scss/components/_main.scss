@@ -38,4 +38,26 @@
 			opacity: 0.8;
 		}
 	}
+
+	.image--container {
+		width: 80vw;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.image {
+		width: 10rem;
+		height: 10rem;
+		object-fit: contain;
+
+		&:hover,
+		&:focus-visible {
+			border: 0.2rem solid var(--color-black);
+		}
+	}
+}
+
+.hide {
+	display: none;
 }

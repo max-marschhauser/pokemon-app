@@ -1,14 +1,12 @@
 import React, { useState } from "react";
-import Question from "../components/Question";
-import Options from "../components/Options";
-import NextPokemon from "../components/NextPokemon";
+import Game from "../components/Game";
 
 export default function Main() {
 	const [isActive, setIsActive] = useState(false);
 
-	const startGame = () => {
+	function startGame() {
 		setIsActive((current) => !current);
-	};
+	}
 
 	return (
 		<>
@@ -19,9 +17,7 @@ export default function Main() {
 			</div>
 			<div className={isActive ? "" : "hide"}>
 				<div className="container--page">
-					<Question />
-					<Options />
-					<NextPokemon />
+					<Game />
 				</div>
 			</div>
 		</>

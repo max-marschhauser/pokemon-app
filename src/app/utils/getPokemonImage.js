@@ -1,11 +1,10 @@
-// takes name and returns pokemon image
+import pokemonImages from "../data/pokemonImages";
+import GetPokemonName from "./getPokemonName";
 
-import pokemonImages from "../list/pokemonImages";
-
-function GetPokemonName(name) {
+function GetPokemonImage() {
+	let name = GetPokemonName();
 	let image = pokemonImages[name];
-
 	return image;
 }
 
-export default GetPokemonName;
+export default GetPokemonImage;

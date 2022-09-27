@@ -25,3 +25,8 @@
 	font-family: "Pokemon Solid", sans-serif;
 	letter-spacing: 0.3rem;
 }
+
+::selection {
+	color: var(--color-white);
+	background: var(--color-black);
+}

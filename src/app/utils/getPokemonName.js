@@ -8,11 +8,9 @@ function GetPokemonName() {
 
 	Pokedex.forEach((pokemon) => {
 		if (pokemon.id === randomNumber) {
-			matchedPokemon = pokemon.name.toUpperCase();
+			matchedPokemon = pokemon.name;
 		}
 	});
-
-	console.log(matchedPokemon);
 
 	return matchedPokemon;
 }
