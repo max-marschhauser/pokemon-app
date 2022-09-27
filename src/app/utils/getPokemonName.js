@@ -12,6 +12,8 @@ function GetPokemonName() {
 		}
 	});
 
+	console.log(matchedPokemon);
+
 	return matchedPokemon;
 }
 
