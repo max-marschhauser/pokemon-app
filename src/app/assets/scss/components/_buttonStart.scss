@@ -1,0 +1,33 @@
+@use "../abstracts" as abs;
+
+.button--start {
+	width: 100vw;
+	padding: 2rem;
+	height: 60vh;
+
+	display: inline-block;
+	opacity: 0;
+
+	background-color: white;
+
+	cursor: pointer;
+
+	font-size: 2rem;
+
+	animation-name: StartButtonEnter;
+	animation-duration: 750ms;
+	animation-delay: 2500ms;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease;
+}
+
+@keyframes StartButtonEnter {
+	0% {
+		opacity: 0;
+		transform: translateX(3rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

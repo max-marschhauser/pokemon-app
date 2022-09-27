@@ -1,12 +1,13 @@
-// takes number and returns pokemon name
+// returns random pokemon name
 
 import Pokedex from "../data/pokedex";
 
-function GetPokemonName(num) {
+function GetPokemonName() {
 	let matchedPokemon = "";
+	let randomNumber = Math.floor(Math.random() * (152 - 1) + 1);
 
 	Pokedex.forEach((pokemon) => {
-		if (pokemon.id === num) {
+		if (pokemon.id === randomNumber) {
 			matchedPokemon = pokemon.name.toUpperCase();
 		}
 	});

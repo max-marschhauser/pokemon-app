@@ -4,9 +4,9 @@ export default function Header() {
 	return (
 		<header className="header">
 			<div className="header__logo">
-				<span>Who's </span>
+				<span>&nbsp;Who's&nbsp;</span>
 				<span>&nbsp;that&nbsp;</span>
-				<span>POKÉMON?</span>
+				<span>&nbsp;POKÉMON?&nbsp;</span>
 			</div>
 		</header>
 	);

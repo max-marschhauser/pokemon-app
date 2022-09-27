@@ -9,9 +9,9 @@ export default function Footer() {
 				Max Marschhauser
 			</div>
 			<div className="footer__item">
-				<span>Who's that Pokemon?</span>
+				<span>Who's that Pokémon?</span>
 				<br />
-				Copyright {}
+				Copyright &copy;{+new Date().getFullYear()}.
 			</div>
 			<div className="footer__item">
 				<span>e-mail:</span>

@@ -14,10 +14,11 @@
 	text-align: center;
 
 	&__logo {
-		padding: 0.5rem 2rem;
+		padding: 0rem 3rem;
 
-		font-size: 2rem;
+		font-size: 1.5rem;
 		font-weight: bold;
+		text-shadow: 0 0 1rem var(--color-black);
 		box-shadow: 0 0 1rem 0.5rem var(--color-red);
 
 		span {

@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import Question from "../components/Question";
 import Options from "../components/Options";
-import Respond from "../components/Respond";
-import Score from "../components/Score";
-import NewGame from "../components/NewGame";
+import NextPokemon from "../components/NextPokemon";
 
 export default function Main() {
 	const [isActive, setIsActive] = useState(false);
@@ -23,9 +21,7 @@ export default function Main() {
 				<div className="container--page">
 					<Question />
 					<Options />
-					<Respond />
-					<Score />
-					<NewGame />
+					<NextPokemon />
 				</div>
 			</div>
 		</>
