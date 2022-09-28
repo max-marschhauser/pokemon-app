@@ -51,6 +51,16 @@
 		height: 10rem;
 		object-fit: contain;
 	}
+
+	.score {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 40vw;
+
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
 }
 
 .hide {
