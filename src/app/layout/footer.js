@@ -4,17 +4,17 @@ export default function Footer() {
 	return (
 		<footer className="footer">
 			<div className="footer__item">
-				<span>Page Author:</span>
+				<span>&nbsp;Page Author:&nbsp;</span>
 				<br />
 				Max Marschhauser
 			</div>
 			<div className="footer__item">
-				<span>Who's that Pokémon?</span>
+				<span>&nbsp;Who's that Pokémon?&nbsp;</span>
 				<br />
 				Copyright &copy;{+new Date().getFullYear()}.
 			</div>
 			<div className="footer__item">
-				<span>e-mail:</span>
+				<span>&nbsp;e-mail:&nbsp;</span>
 				<br />
 				max.marschhauser@gmail.com
 			</div>
