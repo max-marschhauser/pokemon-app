@@ -81,7 +81,7 @@ const pokemonImages = {
 	Slowbro: "http://img.pokemondb.net/artwork/slowbro.jpg",
 	Magnemite: "http://img.pokemondb.net/artwork/magnemite.jpg",
 	Magneton: "http://img.pokemondb.net/artwork/magneton.jpg",
-	Farfetch: "http://img.pokemondb.net/artwork/farfetch'd.jpg",
+	Farfetchd: "https://img.pokemondb.net/artwork/farfetchd.jpg",
 	Doduo: "http://img.pokemondb.net/artwork/doduo.jpg",
 	Dodrio: "http://img.pokemondb.net/artwork/dodrio.jpg",
 	Seel: "http://img.pokemondb.net/artwork/seel.jpg",
