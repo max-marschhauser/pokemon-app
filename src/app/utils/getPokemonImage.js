@@ -3,9 +3,7 @@
 import pokemonImages from "../data/pokemonImages";
 import GetPokemonName from "./getPokemonName";
 
-function GetPokemonImage() {
-	let name = GetPokemonName();
-
+function GetPokemonImage(name) {
 	let image = pokemonImages[name];
 	return image;
 }

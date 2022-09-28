@@ -61,3 +61,17 @@
 .hide {
 	display: none;
 }
+
+.answer--right {
+	width: 10rem;
+	height: 10rem;
+	object-fit: contain;
+	border: 0.2rem solid green;
+}
+
+.answer--wrong {
+	width: 10rem;
+	height: 10rem;
+	object-fit: contain;
+	border: 0.2rem solid red;
+}
