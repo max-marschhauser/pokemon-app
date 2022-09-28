@@ -46,15 +46,10 @@
 		align-items: center;
 	}
 
-	.image {
+	.answer {
 		width: 10rem;
 		height: 10rem;
 		object-fit: contain;
-
-		&:hover,
-		&:focus-visible {
-			border: 0.2rem solid var(--color-black);
-		}
 	}
 }
 
