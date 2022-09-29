@@ -41,7 +41,7 @@ export default function Game() {
 				combo = 0;
 				event.target.className = "answer--wrong";
 				clickedPokemon = true;
-				setTimeout(resetClassName, 1000);
+				setTimeout(resetClassName, 3000);
 			}
 
 			if (combo > scoreCount) {

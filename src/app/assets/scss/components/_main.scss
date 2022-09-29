@@ -44,12 +44,15 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+		user-select: none;
 	}
 
 	.answer {
 		width: 10rem;
 		height: 10rem;
 		object-fit: contain;
+		user-select: none;
+		cursor: pointer;
 	}
 
 	.score {
@@ -72,6 +75,7 @@
 	height: 10rem;
 	object-fit: contain;
 	border: 0.2rem solid green;
+	user-select: none;
 }
 
 .answer--wrong {
@@ -79,4 +83,5 @@
 	height: 10rem;
 	object-fit: contain;
 	border: 0.2rem solid red;
+	user-select: none;
 }

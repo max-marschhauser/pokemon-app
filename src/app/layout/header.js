@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
 	return (
 		<header className="header">
-			<audio controls autoplay muted loop>
+			<audio controls autoplay loop>
 				<source src="pokemonthemesong.mp3" />
 			</audio>
 			<div className="header__logo">
